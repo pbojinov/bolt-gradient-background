@@ -1,0 +1,103 @@
+html, body {
+    background-color: #e84195;
+    color: #fff;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.gradients {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.gradients div {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.pink {
+    background: #fc963f;
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%, #e02d6f), color-stop(100%, #fc963f));
+    background: -webkit-linear-gradient(top, #e02d6f 0%, #fc963f 100%);
+    background: -moz-linear-gradient(top, #e02d6f 0%, #fc963f 100%);
+    background: -o-linear-gradient(top, #e02d6f 0%, #fc963f 100%);
+    background: -ms-linear-gradient(top, #e02d6f 0%, #fc963f 100%);
+    background: linear-gradient(top, #e02d6f 0%, #fc963f 100%);
+}
+.purple {
+    background: #edaa9c;
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%, #8217b7), color-stop(100%, #edaa9c));
+    background: -webkit-linear-gradient(top, #8217b7 0%, #edaa9c 100%);
+    background: -moz-linear-gradient(top, #8217b7 0%, #edaa9c 100%);
+    background: -o-linear-gradient(top, #8217b7 0%, #edaa9c 100%);
+    background: -ms-linear-gradient(top, #8217b7 0%, #edaa9c 100%);
+    background: linear-gradient(top, #8217b7 0%, #edaa9c 100%);
+}
+.blue {
+    background: #05c6d1;
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%, #194fb8), color-stop(100%, #05c6d1));
+    background: -webkit-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+    background: -moz-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+    background: -o-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+    background: -ms-linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+    background: linear-gradient(top, #194fb8 0%, #05c6d1 100%);
+}
+.green {
+    background: #e7dd4b;
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%, #44cd9e), color-stop(100%, #e7dd4b));
+    background: -webkit-linear-gradient(top, #44cd9e 0%, #e7dd4b 100%);
+    background: -moz-linear-gradient(top, #44cd9e 0%, #e7dd4b 100%);
+    background: -o-linear-gradient(top, #44cd9e 0%, #e7dd4b 100%);
+    background: -ms-linear-gradient(top, #44cd9e 0%, #e7dd4b 100%);
+    background: linear-gradient(top, #44cd9e 0%, #e7dd4b 100%);
+}
+.mint {
+    background: #dfcee5;
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%, #0fa9a8), color-stop(100%, #dfcee5));
+    background: -webkit-linear-gradient(top, #0fa9a8 0%, #dfcee5 100%);
+    background: -moz-linear-gradient(top, #0fa9a8 0%, #dfcee5 100%);
+    background: -o-linear-gradient(top, #0fa9a8 0%, #dfcee5 100%);
+    background: -ms-linear-gradient(top, #0fa9a8 0%, #dfcee5 100%);
+    background: linear-gradient(top, #0fa9a8 0%, #dfcee5 100%);
+}
+.beach {
+    background: #e5d8b9;
+    background: -webkit-gradient(linear, top, bottom, color-stop(0%, #2cbedf), color-stop(100%, #e5d8b9));
+    background: -webkit-linear-gradient(top, #2cbedf 0%, #e5d8b9 100%);
+    background: -moz-linear-gradient(top, #2cbedf 0%, #e5d8b9 100%);
+    background: -o-linear-gradient(top, #2cbedf 0%, #e5d8b9 100%);
+    background: -ms-linear-gradient(top, #2cbedf 0%, #e5d8b9 100%);
+    background: linear-gradient(top, #2cbedf 0%, #e5d8b9 100%);
+}
+.current {
+    -moz-opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.pattern {
+    -moz-opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    background-size: 1023px 1009px;
+    background: url(pattern.png) center center;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+@media all and (max-width: 640px) {
+    .pattern {
+        background: url(pattern.png) center center;
+        background-size: 511px 503px;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+}
